@@ -70,3 +70,6 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# Set bin path for newest homebrew sqlite installation
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
