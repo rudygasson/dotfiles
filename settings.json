@@ -1,6 +1,5 @@
 {
-    "[python]":
-    {
+    "[python]": {
         "editor.bracketPairColorization.enabled": false,
         "editor.guides.bracketPairs": false,
         "editor.tabSize": 4
@@ -12,16 +11,14 @@
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderControlCharacters": true,
-    "editor.rulers":
-    [
+    "editor.rulers": [
         80,
         120
     ],
     "editor.showFoldingControls": "always",
     "editor.snippetSuggestions": "top",
     "editor.tabSize": 2,
-    "emmet.includeLanguages":
-    {
+    "emmet.includeLanguages": {
         "erb": "html"
     },
     "emmet.showSuggestionsAsSnippets": true,
@@ -32,8 +29,7 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "files.watcherExclude":
-    {
+    "files.watcherExclude": {
         "**/audits/**": true,
         "**/coverage/**": true,
         "**/log/**": true,
@@ -41,20 +37,28 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
+    "git.enabled": false,
+    "notebook.diff.ignoreMetadata": true,
+    "notebook.lineNumbers": "on",
+    "notebook.markup.fontSize": 13,
     "python.defaultInterpreterPath": "~/.pyenv/shims/python",
     "python.formatting.provider": "yapf",
+    "python.languageServer": "Pylance",
+    "python.linting.enabled": false,
+    "python.linting.flake8Enabled": false,
+    "python.linting.pylintEnabled": false,
     "python.terminal.activateEnvironment": false,
-    "ruby.lint":
-    {
-      "rubocop": false
+    "ruby.lint": {
+        "rubocop": true
     },
-    "ruby.useLanguageServer": true,
-    "ruby.format": "rubocop",
-    "files.associations": {
-      "*.erb": "erb"
+    "search.exclude": {
+      // Inherits all glob patterns from the `files.exclude` setting.
+      "**/.venv": true
     },
     "telemetry.telemetryLevel": "off",
     "window.restoreWindows": "none",
+    "window.newWindowDimensions": "maximized",
+    "workbench.editor.enablePreview": true,
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
@@ -82,5 +86,6 @@
     "git.openRepositoryInParentFolders": "never",
     "[typescript]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "workbench.panel.defaultLocation": "right"
 }
