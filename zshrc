@@ -73,3 +73,10 @@ export PYTHONBREAKPOINT=ipdb.set_trace
 
 # Set bin path for newest homebrew sqlite installation
 export PATH="/usr/local/opt/sqlite/bin:${PATH}"
+
+# bun completions
+[ -s "/Users/rudy/.bun/_bun" ] && source "/Users/rudy/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
