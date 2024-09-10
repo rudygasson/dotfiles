@@ -1,0 +1,133 @@
+{
+    "[python]":
+    {
+        "editor.bracketPairColorization.enabled": false,
+        "editor.guides.bracketPairs": false,
+        "editor.tabSize": 4
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.detectIndentation": false,
+    "editor.fontSize": 14,
+    "editor.guides.bracketPairs": true,
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderControlCharacters": true,
+    "editor.rulers":
+    [
+        80,
+        120
+    ],
+    "editor.showFoldingControls": "always",
+    "editor.snippetSuggestions": "top",
+    "editor.tabSize": 2,
+    "emmet.includeLanguages":
+    {
+        "erb": "html",
+        "svelte": "html"
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "explorer.confirmDelete": false,
+    "files.exclude": {},
+    "files.hotExit": "off",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.watcherExclude":
+    {
+        "**/audits/**": true,
+        "**/coverage/**": true,
+        "**/log/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/vendor/**": true
+    },
+    "python.defaultInterpreterPath": "~/.pyenv/shims/python",
+    "python.formatting.provider": "yapf",
+    "python.terminal.activateEnvironment": false,
+    "ruby.lint":
+    {
+      "rubocop": false
+    },
+    "ruby.useLanguageServer": true,
+    "ruby.intellisense": "rubyLocate",
+    "ruby.format": "rubocop",
+    "files.associations": {
+      "*.erb": "erb",
+      "*.rb": "ruby"
+    },
+    "telemetry.telemetryLevel": "off",
+    "window.restoreWindows": "none",
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "prettier.arrowParens": "always",
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[svelte]": {
+      "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
+    "files.autoSave": "afterDelay",
+    "svelte.plugin.svelte.note-new-transformation": false,
+    "git.openRepositoryInParentFolders": "never",
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.env.osx": {
+      "FIG_NEW_SESSION": "1"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false,
+      "svelte": true
+    },
+    "workbench.colorTheme": "Spinel",
+    "svelte.enable-ts-plugin": true,
+    "playwright.showTrace": false,
+    "rubyLsp.enabledFeatures": {
+
+      "codeActions": true,
+      "diagnostics": true,
+      "documentHighlights": true,
+      "documentLink": true,
+      "documentSymbols": true,
+      "foldingRanges": true,
+      "formatting": true,
+      "hover": true,
+      "inlayHint": true,
+      "onTypeFormatting": true,
+      "selectionRanges": true,
+      "semanticHighlighting": true,
+      "completion": true,
+      "codeLens": false
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[ruby]": {
+      "editor.defaultFormatter": "Shopify.ruby-lsp",
+      "editor.insertSpaces": true,
+      "editor.rulers": [
+        120
+      ],
+      "editor.semanticHighlighting.enabled": true
+
+    }
+}
