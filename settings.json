@@ -91,13 +91,7 @@
     },
     "liveServer.settings.donotVerifyTags": true,
     "editor.inlineSuggest.enabled": true,
-    "github.copilot.enable": {
-      "*": false,
-      "plaintext": false,
-      "markdown": false,
-      "scminput": false,
-      "svelte": true
-    },
+    "github.copilot.enable": false,
     "workbench.colorTheme": "Spinel",
     "svelte.enable-ts-plugin": true,
     "playwright.showTrace": false,
