@@ -1,10 +1,20 @@
 ZSH=$HOME/.oh-my-zsh
+ZSH_CUSTOM=$HOME/code/rudygasson/dotfiles/oh-my-zsh/custom
 
 # You can change the theme with another one from https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 ZSH_THEME="rudy"
 
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
-plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search pyenv)
+plugins=(
+  git
+  gitfast
+  last-working-dir
+  common-aliases
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+  history-substring-search
+  pyenv
+)
 
 # (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/docs/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
